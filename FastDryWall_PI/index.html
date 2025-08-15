@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constru+</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header></header>
+
+    <section>
+        <p>
+            <img src="fasdrywall_logo.png" id="logofast">
+        </p>
+
+        <h1>Login</h1>
+
+        <div class="form">
+            <label for="usuario">Usuário:</label><br>
+            <input type="text" id="usuario"><br><br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha"><br><br>
+        </div>
+
+        <div class="botoes">
+            <input type="button" value="Sair" class="botao">
+            <input type="button" value="Entrar" class="botao" id="logar"> <!--Obs:Programar botao de cancelar amanhã-->
+        </div>
+    </section>
+    <script>
+    window.onload = function() {
+        const log1 = document.getElementById("logar");
+
+        log1.addEventListener("click", function () {
+            window.location.href = "Firstpag.html";
+        });
+    };
+</script>
+
+</body>
+</html>
