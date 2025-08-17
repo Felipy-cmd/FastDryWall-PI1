@@ -4,41 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Constru+</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="icon" type="image/png" href="img/logo_constru+ (1).png">
 </head>
 <body>
-    
-    <header></header>
-
     <section>
         <p>
-            <img src="fasdrywall_logo.png" id="logofast">
+            <img src="img/fasdrywall_logo.png" id="logofast">
         </p>
 
         <h1>Login</h1>
 
-        <div class="form">
-            <label for="usuario">Usuário:</label><br>
-            <input type="text" id="usuario"><br><br>
+        <form action="login.php" method="POST" class="form">
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
             <label for="senha">Senha:</label><br>
-            <input type="password" id="senha"><br><br>
-        </div>
+            <input type="password" id="senha" name="senha" required><br><br>
 
-        <div class="botoes">
-            <input type="button" value="Sair" class="botao">
-            <input type="button" value="Entrar" class="botao" id="logar"> <!--Obs:Programar botao de cancelar amanhã-->
-        </div>
+            <div class="botoes">
+                <input type="reset" value="Limpar" class="botao">
+                <input type="submit" value="Entrar" class="botao">
+            </div>
+        </form>
     </section>
-    <script>
-    window.onload = function() {
-        const log1 = document.getElementById("logar");
-
-        log1.addEventListener("click", function () {
-            window.location.href = "Firstpag.html";
-        });
-    };
-</script>
-
 </body>
 </html>
