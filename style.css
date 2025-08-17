@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+
+section {
+    padding: 15px;
+    height: 510px;
+    width: 510px;   
+    background-color: rgb(226, 221, 221);
+    border-radius: 10px;
+    border: 1px solid rgb(161, 56, 56);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(161, 56, 56);
+}
+
+
+label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(161, 56, 56);
+}
+
+
+input[type="email"],
+input[type="password"] {
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    height: 30px;
+    width: 80%;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+.botoes {
+    margin-top: 0px;
+}
+
+.botao {
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;
+    color: rgb(161, 56, 56);
+    background-color: white;
+    border: 1px solid rgb(161, 56, 56);
+    font-family: fantasy;
+    margin: 5px;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: rgb(161, 56, 56);
+    color: white;
+}
+#logofast{
+    height: 100px;
+}
